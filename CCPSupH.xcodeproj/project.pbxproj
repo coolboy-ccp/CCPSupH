@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1BFB351E79330900E0C42E /* CCPAdaptionSup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BFB341E79330900E0C42E /* CCPAdaptionSup.swift */; };
 		8B2D426E1E77E096008E7F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D426D1E77E096008E7F04 /* AppDelegate.swift */; };
 		8B2D42701E77E096008E7F04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D426F1E77E096008E7F04 /* ViewController.swift */; };
 		8B2D42731E77E096008E7F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2D42711E77E096008E7F04 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B1BFB341E79330900E0C42E /* CCPAdaptionSup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCPAdaptionSup.swift; sourceTree = "<group>"; };
 		8B2D426A1E77E096008E7F04 /* CCPSupH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPSupH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2D426D1E77E096008E7F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B2D426F1E77E096008E7F04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				8B2D426D1E77E096008E7F04 /* AppDelegate.swift */,
 				8B2D426F1E77E096008E7F04 /* ViewController.swift */,
+				8B1BFB341E79330900E0C42E /* CCPAdaptionSup.swift */,
 				8B2D42711E77E096008E7F04 /* Main.storyboard */,
 				8B2D42741E77E096008E7F04 /* Assets.xcassets */,
 				8B2D42761E77E096008E7F04 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B1BFB351E79330900E0C42E /* CCPAdaptionSup.swift in Sources */,
 				8B2D42701E77E096008E7F04 /* ViewController.swift in Sources */,
 				8B2D426E1E77E096008E7F04 /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +507,7 @@
 				8B2D42941E77E096008E7F04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B2D42951E77E096008E7F04 /* Build configuration list for PBXNativeTarget "CCPSupHTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				8B2D42971E77E096008E7F04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B2D42981E77E096008E7F04 /* Build configuration list for PBXNativeTarget "CCPSupHUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				8B2D429A1E77E096008E7F04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
