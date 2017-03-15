@@ -10,6 +10,10 @@ import UIKit
 
 extension UIView {
 
+    /*
+     自适应高度
+     exH:下边距
+     */
     func adaptionH(_ exH : CGFloat = 0) {
         let hs : Array<CGFloat> = self.subviews.map({$0.frame.maxY})
         var f = self.bounds
@@ -17,6 +21,10 @@ extension UIView {
         self.bounds = f
     }
     
+    /*
+     自适应宽度
+     exW:right-margin
+     */
     func adaptionW(_ exW : CGFloat = 0) {
         let hs : Array<CGFloat> = self.subviews.map({$0.frame.maxX})
         var f = self.bounds
@@ -24,6 +32,10 @@ extension UIView {
         self.bounds = f
     }
     
+    /*
+     自适应大小
+     exWH:$0 = right-margin,$1 = bottom-margin
+     */
     func adaptionWH(_ exWH : (CGFloat,CGFloat) = (0,0)) {
         self.adaptionW(exWH.0)
         self.adaptionH(exWH.1)
